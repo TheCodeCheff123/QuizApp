@@ -105,7 +105,7 @@ function showScore(){
 }
 
 function handleNextButton(){
-    currentQuestionIndex ++;
+    currentQuestionIndex++;
     if(currentQuestionIndex < questions.length){
         showQuestion();
     }else{
